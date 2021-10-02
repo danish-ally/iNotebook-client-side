@@ -1,4 +1,6 @@
 import React from "react";
+import DeleteIcon from '@mui/icons-material/Delete';
+import EditIcon from '@mui/icons-material/Edit';
 
 const Noteitem = (props) => {
   const { note } = props;
@@ -8,8 +10,8 @@ const Noteitem = (props) => {
         <div class="card-body">
           <h5 class="card-title"> {note.title}</h5>
           <p class="card-text">{note.description}</p>
-          <i class="far fa-trash-alt"></i>
-          <i class="fas fa-camera"></i>
+         <DeleteIcon style={{marginLeft: "10px", cursor: "pointer"}}/>
+          <EditIcon style={{marginLeft: "10px", cursor: "pointer"}}/>
         </div>
       </div>
     </div>
