@@ -1,0 +1,5 @@
+export const REQ_START = 'REQ_START';
+export const GET_STORE_LIST = 'GET_STORE_LIST';
+export const SUBMIT_STORE = 'SUBMIT_STORE';
+export const STORE_SUCCESS = 'CONTACTUS_SUCCESS';
+export const STORE_FAILURE = 'STORE_FAILURE';
